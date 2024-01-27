@@ -2,12 +2,12 @@
 
 **Lab. Report \#1 – Introduction to Testing and Defect Tracking**
 
-| Group: Group Number      |
+| Group: Group Number 17     |
 |-----------------|
-| Qazi Ali                |   
-| Shayyan Asim              |   
-| Rohan Kapila               |   
-| Fayzan Toor                |   
+| Qazi Ali              |   
+| Shayyan Asim            |   
+| Rohan Kapila              |   
+| Fayzan Toor             |   
 
 
 **Table of Contents**

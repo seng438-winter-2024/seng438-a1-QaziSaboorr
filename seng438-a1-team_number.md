@@ -2,12 +2,12 @@
 
 **Lab. Report \#1 – Introduction to Testing and Defect Tracking**
 
-| Group: Group Number   17   |
+| Group: Group Number      |
 |-----------------|
-| Student 1 name          Shayyan Asim      |   
-| Student 2 name           Rohan Kapila    |   
-| Student 3 name           Fayzan Toor    |   
-| Student 4 name            Qazi Ali    |   
+| Student 1 name                |   
+| Student 2 name              |   
+| Student 3 name               |   
+| Student 4 name                |   
 
 
 **Table of Contents**
@@ -38,7 +38,17 @@ functional testing before this lab
 
 # High-level description of the exploratory testing plan
 
-Text…
+2: The primary focus of the exploratory testing plan was to simulate real-world user interactions with ATM, and identify possible usability issues. Test cases for exploratory testing were planned as if a user is about to use an ATM in real life. Test plans included.
+    Entering a negative number for the number of 20$ bills
+    Entering an incorrect PIN
+    Entering an incorrect Card Number
+The test cases mentioned above were for checking login authenticity.
+    Testing out the Withdrawal functionality with all the different account types.
+    Testing out the Deposit functionality with all the different account types.
+    Testing out the Transfer functionality with all the different account types.
+    Testing out the Balance Inquiry with all the different account types.
+The test cases mentioned above were used to check that if the ATM does what its supposed to do, that is testing its overall functionality by entering incorrect information like (Characters, Negative Numbers etc) and checking if an error message shows up when entering incorrect info. Also making sure that if an amount that needs to be withdrawn is correct or an amount that transfer is transferred correctly, and checking that the ATM shows the correct balance that is available
+
 
 # Comparison of exploratory and manual functional testing
 
@@ -49,7 +59,7 @@ Text…
 
 # Notes and discussion of the peer reviews of defect reports
 
-Text…
+4: The testing was divided into 2 groups. 1 Group tested the Withdrawal and Deposit functionality. 2nd Group was responsible for Transfers and Balance Inquiry. The login authenticity tests were done together. The primary goal of dividing the group was to ensure that each group mastered the functionality that they were assigned to since the ATM had a lot of options. After getting to know the system more through tests were conducted with multiple inputs and were first reported on a google doc where everyone was collaborating. Afterwards 2 groups reviewed each other’s work and started to report the bugs found on Azure.
 
 # How the pair testing was managed and team work/effort was divided 
 
@@ -57,7 +67,7 @@ Text…
 
 # Difficulties encountered, challenges overcome, and lessons learned
 
-Text…
+6: Difficulties encountered were making the test cases during the exploratory testing part. Since it was the first time we were doing something like this, coming up with different ideas on how to proceed with the testing was a bit difficult. But then all of us first agreed that before starting the testing we should first get comfortable with the ATM and see how it works and do effective communication with each other if something is not clear. When everyone was comfortable with the system we started to design the test cases and divided the testing into 2 groups to ensure that each group focused especially on the component they were assigned to test to get the maximum benefit. Lessons learned were that rushing the testing part can cause huge problems especially when working in the industry so taking things slow and learning about the system that is being tested is essential.
 
 # Comments/feedback on the lab and lab document itself
 

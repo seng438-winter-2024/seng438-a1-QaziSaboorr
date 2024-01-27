@@ -4,10 +4,10 @@
 
 | Group: Group Number      |
 |-----------------|
-| Student 1 name                |   
-| Student 2 name              |   
-| Student 3 name               |   
-| Student 4 name                |   
+| Qazi Ali                |   
+| Shayyan Asim              |   
+| Rohan Kapila               |   
+| Fayzan Toor                |   
 
 
 **Table of Contents**

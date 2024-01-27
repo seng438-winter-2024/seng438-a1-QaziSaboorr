@@ -4,9 +4,9 @@
 
 
 
-Function Being Tested:Â Balance Inquiry for Money Market
+Function Being Tested: Balance Inquiry for Money Market
 
-State:Â On and idle
+State: On and idle
 
 
 Steps to Reproduce:
@@ -18,32 +18,32 @@ Steps to Reproduce:
 
 Expected: No error message
 Actual: Unknown error message displayed on green section
-UPDATE:Â  ISSUE FIXED IN VERSION 1.1"
+UPDATE: ISSUE FIXED IN VERSION 1.1"
 2,Bug,Deposit Balance Is 10 Dollars Less Than The Amount (Exploratory),Rohan KAPILA <rohan.kapila@ucalgary.ca>,Resolved,,"Description: Balance Inquiry for Money Market is throwing unknown error
 
 
 
 
-Function Being Tested:Â Balance Inquiry for Money Market
+Function Being Tested: Balance Inquiry for Money Market
 
-State:Â On and idle
+State:On and idle
 
 
 Steps to Reproduce:
 1. Log in was 20 bills of $20
-2. Enter card number 1Â 
+2. Enter card number 1 
 3. Enter pin number 42
 4. Selected balance inquiry
 5. Selected money market
 
 Expected: No error message
 Actual: Unknown error message displayed on green section
-UPDATE:Â  ISSUE FIXED IN VERSION 1.1"
-3,Bug,Account Type is Invalid for Transfer (Exploratory) ,Qazi Ali <qazi.ali@ucalgary.ca>,Active,,"Description:Â Failed to transfer between saving to checkingÂ 
+UPDATE:  ISSUE FIXED IN VERSION 1.1"
+3,Bug,Account Type is Invalid for Transfer (Exploratory) ,Qazi Ali <qazi.ali@ucalgary.ca>,Active,,"Description: Failed to transfer between saving to checking 
 
-Function Being Tested :Â  TransferÂ 
+Function Being Tested :  Transfer 
 
-State :Â On and idle
+State :On and idle
 
 Steps to Reproduce:
 1. Log in was 100 bills of $20
@@ -66,14 +66,14 @@ UPDATE: ISSUE NOT FIXED IN VERSION 1.1"
 
 
 
-Function Being Tested:Â Balance Inquiry for Money Market
+Function Being Tested: Balance Inquiry for Money Market
 
-State:Â On and idle
+State: On and idle
 
 
 Steps to Reproduce:
 1. Log in was 20 bills of $20
-2. Enter card number 1Â 
+2. Enter card number 1 
 3. Enter pin number 42
 4. Selected balance inquiry
 5. Selected money market
@@ -81,10 +81,10 @@ Steps to Reproduce:
 Expected: $5000 displayed
 Actual: $500 displayed
 UPDATE: ISSUE FIXED IN VERSION 1.1"
-5,Bug,Withdrawal Functionality Error (Exploratory),Shayyan Asim <shayyan.asim@ucalgary.ca>,Active,,"Description:Â Clicking a number that is not an option shows a 20 that grows in size.
+5,Bug,Withdrawal Functionality Error (Exploratory),Shayyan Asim <shayyan.asim@ucalgary.ca>,Active,,"Description: Clicking a number that is not an option shows a 20 that grows in size.
 
-Function Being Tested:Â Withdrawal
-State:Â ON AND IDLE
+Function Being Tested: Withdrawal
+State: ON AND IDLE
 
 Steps to Reproduce:
 1: Enter the correct Login Information (Correct Pin and Integer Values).
@@ -93,11 +93,11 @@ Steps to Reproduce:
 4: You are asked to enter a number between 1 to 5 to select a amount.
 5: Enter a number not between 1-5. Enter 7 or 8 for example.
 
-Expected Outcome:Â Nothing Should Happen as the entered number is not assigned any money.
+Expected Outcome: Nothing Should Happen as the entered number is not assigned any money.
 
-Actual Outcome:Â A 20 shows that grows in size and while it is showing no other functionality works.
+Actual Outcome: A 20 shows that grows in size and while it is showing no other functionality works.
 UPDATE: ISSUE NOT RESOLVED IN VERSION 1.1
-Â "
+ "
 8,Bug,Incorrect Account Listed in Logs for Balance Inquiry (Exploratory),Fayzan TOOR <fayzan.toor@ucalgary.ca>,Resolved,,"Description: Balance Inquiry for Money Market is Shown as Saving Account in Logs
 
 
@@ -106,14 +106,14 @@ UPDATE: ISSUE NOT RESOLVED IN VERSION 1.1
 
 
 
-Function Being Tested:Â Balance Inquiry for Money Market
+Function Being Tested: Balance Inquiry for Money Market
 
-State:Â On and idle
+State: On and idle
 
 
 Steps to Reproduce:
 1. Log in was 20 bills of $20
-2. Enter card number 1Â 
+2. Enter card number 1 
 3. Enter pin number 42
 4. Selected balance inquiry
 5. Selected money market
@@ -121,31 +121,31 @@ Steps to Reproduce:
 Expected: Balance account is referenced in logs
 Actual: Savings account is mentioned instead
 UPDATE: ISSUE FIXED IN 1.1 VERSION"
-9,Bug,Incorrect Amount Being Withdrawn [Exploratory],Shayyan Asim <shayyan.asim@ucalgary.ca>,Resolved,,"Description:Â When selecting a specific amount to withdraw it doesn't actually withdraw that amount.
+9,Bug,Incorrect Amount Being Withdrawn [Exploratory],Shayyan Asim <shayyan.asim@ucalgary.ca>,Resolved,,"Description: When selecting a specific amount to withdraw it doesn't actually withdraw that amount.
 
-State:Â ON AND IDLE
+State: ON AND IDLE
 Steps To Reproduce:
 1: Login after entering the correct information.
 2: Choose 1 for Withdrawing.
 3: Select Checking or Savings account.
 4: It is gonna ask to enter a number between 1-5
-5: Choose any number so 1 is 20 dollars. 2 is 40 dollarsÂ 
+5: Choose any number so 1 is 20 dollars. 2 is 40 dollars 
 
-Expected Outcome:Â If you select 1 it should withdraw 20 dollars. 2 should withdraw 40
-Actual Outcome:Â Selecting 1 withdraws the amount assigned to 2 that is 40 dollars and selecting 3 withdraws the amount assigned to 40 and so on.
+Expected Outcome: If you select 1 it should withdraw 20 dollars. 2 should withdraw 40
+Actual Outcome: Selecting 1 withdraws the amount assigned to 2 that is 40 dollars and selecting 3 withdraws the amount assigned to 40 and so on.
 
 UPDATE: ISSUE RESOLVED IN VERSION 1.1"
-10,Bug,Invalid Option Selection (Exploratory),Rohan KAPILA <rohan.kapila@ucalgary.ca>,Resolved,,"Description: Selected an account not displayedÂ 
+10,Bug,Invalid Option Selection (Exploratory),Rohan KAPILA <rohan.kapila@ucalgary.ca>,Resolved,,"Description: Selected an account not displayed 
 
 
-Function Being Tested:Â DepositÂ 
+Function Being Tested: Deposit 
 
-State:Â On and idle
+State: On and idle
 
 
 Steps to Reproduce:
 1. Log in was 20 bills of $20
-2. Enter card number 1Â 
+2. Enter card number 1 
 3. Enter pin number 42
 4. Select Deposit
 5. Select input 8
@@ -155,18 +155,18 @@ Actual: Deposits $20
 "
 11,Bug,Message Misspelled on Amount Selection Cancel Request (MFT),Rohan KAPILA <rohan.kapila@ucalgary.ca>,Resolved,,"MFT
 
-Description: Cancel Chequing Deposit Amount Request Display Misspelled Â 
+Description: Cancel Chequing Deposit Amount Request Display Misspelled  
 
 
 
-Function Being Tested:Â DepositÂ 
+Function Being Tested: Deposit 
 
-State:Â On and idle
+State: On and idle
 
 
 Steps to Reproduce:
 1. Log in was 20 bills of $20
-2. Enter card number 1Â 
+2. Enter card number 1 
 3. Enter pin number 42
 4. Select Deposit
 5. Select Chequing
@@ -178,25 +178,25 @@ Would you like to do another transaction?
 1) Yes
 2) No
 
-Actual:Â 
+Actual: 
 Last transaction was cancelled
 Wood you like to do another transaction?
 1) Yes
 2) No"
 12,Bug,Cancel Request on Account Selection Misspelled (MFT),Rohan KAPILA <rohan.kapila@ucalgary.ca>,Resolved,,"MFT
 
-Description: Cancel Chequing Deposit Account Display Request Display Misspelled Â 
+Description: Cancel Chequing Deposit Account Display Request Display Misspelled  
 
 
 
-Function Being Tested:Â DepositÂ 
+Function Being Tested: Deposit 
 
-State:Â On and idle
+State: On and idle
 
 
 Steps to Reproduce:
 1. Log in was 20 bills of $20
-2. Enter card number 1Â 
+2. Enter card number 1 
 3. Enter pin number 42
 4. Select Deposit
 5. Click Cancel option
@@ -207,25 +207,25 @@ Would you like to do another transaction?
 1) Yes
 2) No
 
-Actual:Â 
+Actual: 
 Last transaction was cancelled
 Wood you like to do another transaction?
 1) Yes
 2) No"
 13,Bug,Message Misspelled on insert envelope cancellation request (MFT),Rohan KAPILA <rohan.kapila@ucalgary.ca>,Resolved,,"MFT
 
-Description: Cancel Chequing Deposit Amount Request Display Misspelled Â 
+Description: Cancel Chequing Deposit Amount Request Display Misspelled  
 
 
 
-Function Being Tested:Â DepositÂ 
+Function Being Tested: Deposit 
 
-State:Â On and idle
+State: On and idle
 
 
 Steps to Reproduce:
 1. Log in was 20 bills of $20
-2. Enter card number 1Â 
+2. Enter card number 1 
 3. Enter pin number 42
 4. Select Deposit
 5. Select Chequing
@@ -238,15 +238,15 @@ Would you like to do another transaction?
 1) Yes
 2) No
 
-Actual:Â 
+Actual: 
 Last transaction was cancelled
 Wood you like to do another transaction?
 1) Yes
 2) No
 "
-14,Bug,PIN AUTHENTICATION LAG [MFT],Shayyan Asim <shayyan.asim@ucalgary.ca>,Active,,"Description:Â Â Entering correct pin after an incorrect input doesn't log in.
+14,Bug,PIN AUTHENTICATION LAG [MFT],Shayyan Asim <shayyan.asim@ucalgary.ca>,Active,,"Description:  Entering correct pin after an incorrect input doesn't log in.
 
-State:Â ON AND IDLE
+State: ON AND IDLE
 
 Steps to Reproduce:
 1: Turn on the machine.
@@ -256,9 +256,9 @@ Steps to Reproduce:
 5: Enter Incorrect Pin
 6: Enter Correct Pin
 
-Expected Output:Â After Entering the correct PIN the account should successfully log in.
+Expected Output: After Entering the correct PIN the account should successfully log in.
 
-Actual Output:Â After Entering the correct PIN the ATM asked to enter the PIN again.
+Actual Output: After Entering the correct PIN the ATM asked to enter the PIN again.
 After entering the Correct PIN second time the system lets you to login"
 15,Bug,Spelling Error When Asked for Another Transaction (MFT),Fayzan TOOR <fayzan.toor@ucalgary.ca>,Resolved,,"Description: Spelling Error in Menu Asking for Additional Transactions
 
@@ -268,12 +268,12 @@ After entering the Correct PIN second time the system lets you to login"
 
 Function Being Tested: System allows a customer to perform a transaction
 
-State:Â On and idle
+State: On and idle
 
 
 Steps to Reproduce:
 1. Log in was 12 bills of $20
-2. Enter card number 1Â 
+2. Enter card number 1 
 3. Enter pin number 42
 4. Selected Withdrawal
 5. Selected Checking
@@ -283,7 +283,7 @@ Expected: Would you like to do another transaction?
 1) Yes
 2) No
 
-Actual:Â Â Wood you like to do another transaction?
+Actual:  Wood you like to do another transaction?
 
 1) Yes
 2) No
@@ -300,18 +300,18 @@ Actual:Â Â Wood you like to do another transaction?
 
 Function Being Tested: Withdrawal
 
-Initial State:Â On and idle
+Initial State: On and idle
 
 
 Steps to Reproduce:
 1. Log in was 20 bills of $20
-2. Enter card number 1Â 
+2. Enter card number 1 
 3. Enter pin number 42
 4. Selected Withdrawal
 5. Selected Checking
 6. Selected $200
 
-Expected:Â System displays an appropriate message and offers customer the option of choosing to do another transaction or not.
+Expected: System displays an appropriate message and offers customer the option of choosing to do another transaction or not.
 
-Actual:Â $20 withdrawal
+Actual: $20 withdrawal
 UPDATE: ISSUE FIXED IN VERSION 1.1"

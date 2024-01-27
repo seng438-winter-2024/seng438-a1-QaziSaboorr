@@ -1,9 +1,11 @@
 **SENG 438 - Software Testing, Reliability, and Quality**
->   **Assignment \#1**
->   **Introduction to Testing and Defect (Bug) Tracking**
->   Instructors: 
->   -   Dr. Behrouz Far (far@ucalgary.ca)
->   -   Dr. Kangsoo Kim (kangsoo.kim@ucalgary.ca)
+
+> **Assignment \#1**
+> **Introduction to Testing and Defect (Bug) Tracking**
+> Instructors:
+>
+> - Dr. Behrouz Far (far@ucalgary.ca)
+> - Dr. Kangsoo Kim (kangsoo.kim@ucalgary.ca)
 >   Department of Electrical and Software Engineering
 >   University of Calgary
 
@@ -12,25 +14,28 @@ Due Date: Check D2L for the submission deadline.
 # 1 Introduction
 
 This lab is designed to provide students with a comprehensive understanding of software testing. The lab is divided into four main sections:
--   Familiarization with the system under test (SUT) and the defect tracking system
--   Exploratory (manual non-scripted) testing
--   Manual scripted testing
--   Regression testing (re-testing a system after it has been changed)
+
+- Familiarization with the system under test (SUT) and the defect tracking system
+- Exploratory (manual non-scripted) testing
+- Manual scripted testing
+- Regression testing (re-testing a system after it has been changed)
 
 In the familiarization stage, students will explore the software system to be tested (System Under Test, or SUT), as well as a typical defect tracking
 system. During the exploratory testing phase, students will be free to test the system in any manner that they choose (and are able). Once students reach
 the manual scripted testing phase, they will be required to use a predefined test suite to test the SUT. Finally, students will perform some simple regression testing on an updated version of the system (corrected by imaginary developers in response to a list of defect reports), and record differing system behavior in the defect tracking system appropriately.
 
 # Objectives
+
 This lab is designed to provide students with a basic understanding of software testing concepts. By participating in this lab, students will gain:
 
--   Practical experience in testing a software system
--  Knowledge of the differences between exploratory, manual scripted, and regression testing
--   Familiarity with industrial defect tracking systems, processes, and practices.
+- Practical experience in testing a software system
+- Knowledge of the differences between exploratory, manual scripted, and regression testing
+- Familiarity with industrial defect tracking systems, processes, and practices.
 
 This lab aims to provide students with a foundational understanding of software testing so that they can apply these concepts in real-world scenarios.
 
 # Pair Testing
+
 In this lab, two students in each group will work together in "pair testing." This technique is a software development method in which two team members work at one keyboard to test the software application. One person will conduct the testing while the other reviews and analyzes the results. This technique can be used between a tester and developer, business analyst, or between two testers who take turns at the keyboard. This approach allows for more efficient and effective testing, as well as an opportunity for team members to learn from each other.
 
 # Group Work
@@ -38,48 +43,52 @@ In this lab, two students in each group will work together in "pair testing." Th
 In this lab, each group will consist of 4 members. Two members will work together in a pair testing method to complete the lab report. After the pair testing, both pairs will combine their reports and submit one final lab report.
 
 # Submission Guidelines
+
 All lab reports in this course should be submitted on GitHub. It is important to follow the suggested format when submitting your lab report on D2L and on GitHub.
 
 ## D2L Submission
--   Please make sure to include your group number
--   Provide the link to your GitHub repository
--   Include the full name and student ID of all group members
+
+- Please make sure to include your group number
+- Provide the link to your GitHub repository
+- Include the full name and student ID of all group members
 
 ## GitHub Submission
--   Include your group number
--   Include the first name of all group members
--   It is important to note that personal information such as student ID should not be included in the GitHub submission.
 
--   The main lab report must be submitted in the .md (Markdown File Format) only. Submitting in any other format will result in a loss of marks.
--   You are not allowed to submit Microsoft Word of PDF or any other file format for your main reports.
--   The attachments for example bug list and screen shots can be in any other file format
+- Include your group number
+- Include the first name of all group members
+- It is important to note that personal information such as student ID should not be included in the GitHub submission.
 
--   One member of the group should be responsible for submitting the link to the GitHub repository on D2L. The due date for this assignment can be found on D2L. Make sure to submit your lab report and all necessary files before the deadline.
+- The main lab report must be submitted in the .md (Markdown File Format) only. Submitting in any other format will result in a loss of marks.
+- You are not allowed to submit Microsoft Word of PDF or any other file format for your main reports.
+- The attachments for example bug list and screen shots can be in any other file format
+
+- One member of the group should be responsible for submitting the link to the GitHub repository on D2L. The due date for this assignment can be found on D2L. Make sure to submit your lab report and all necessary files before the deadline.
 
 It is important to follow these guidelines to ensure a smooth submission process and to avoid any issues or delays.
 
-
 # Issue Tracking Systems
+
 The only tool required for this lab is an issue tracking system. In this lab, we will be using Atlassian Jira (https://www.atlassian.com/software/jira) or Azure DevOps (https://azure.com/devops) as our defect tracking system. These systems are widely used in the software industry for managing and tracking bugs and issues. They provide features such as the ability to prioritize and assign defects to developers, advanced search capabilities, and integration with email notifications. By using these systems, students will gain hands-on experience with industry-standard tools for defect tracking.
 
 To familiarize yourself with these tools, you can use the following source or any other source of your choice:
+
 - [Reporting bugs in Jira Software](https://marker.io/blog/jira-bug-tracking#reporting-bugs-in-jira-software)
 - Azure DevOps:
-    - [Create Organization](https://aex.dev.azure.com/me?mkt=en-GB)
-    - [Change basic project to (agile, scrum or CMMI)](https://learn.microsoft.com/en-us/azure/devops/organizations/settings/work/change-process-basic-to-agile?view=azure-devops)
-    - [How to report bug as a work item I](https://www.azuredevopsguide.com/creating-a-bug-in-azure-devops/)
-    - [How to report bug as a work item I](https://learn.microsoft.com/en-us/azure/devops/boards/backlogs/manage-bugs?view=azure-devops#bug-work-item-type)
-    
+  - [Create Organization](https://aex.dev.azure.com/me?mkt=en-GB)
+  - [Change basic project to (agile, scrum or CMMI)](https://learn.microsoft.com/en-us/azure/devops/organizations/settings/work/change-process-basic-to-agile?view=azure-devops)
+  - [How to report bug as a work item I](https://www.azuredevopsguide.com/creating-a-bug-in-azure-devops/)
+  - [How to report bug as a work item I](https://learn.microsoft.com/en-us/azure/devops/boards/backlogs/manage-bugs?view=azure-devops#bug-work-item-type)
 
 # Lab Materials
+
 In addition to the lab document, which is to be submitted in a markdown file format, each lab in this course will require additional materials. These materials, known as lab artifacts, may include items such as the software system under test (SUT), source code, and other relevant files. It is important to submit all required lab artifacts as specified in each lab's instructions to ensure proper evaluation of your lab work.
 
 # System Under Test
 
-The system under test for this lab is an ATM simulation system [1]. To get started with this system, download the *lab_artifacts.zip* file under Assignment 1. There are two versions of the ATM system inside that zip file which represent two consecutive releases of the software with bugs and bug fixes (details in the next sections):
+The system under test for this lab is an ATM simulation system [1]. To get started with this system, download the _lab_artifacts.zip_ file under Assignment 1. There are two versions of the ATM system inside that zip file which represent two consecutive releases of the software with bugs and bug fixes (details in the next sections):
 
--   ATM System - Lab 1 Version 1.0
--   ATM System - Lab 1 Version 1.1
+- ATM System - Lab 1 Version 1.0
+- ATM System - Lab 1 Version 1.1
 
 1.  **Purpose of the System**
 
@@ -88,24 +97,25 @@ bank account(s).
 
 2.  **Usage of the System**
 
-    To use the ATM simulation system, run JAR file *ATM System – Lab 1 Version 1.0.jar* which is inside *Assignment 1 - artifacts.zip*. The system should begin execution with the GUI as shown in Appendix A.
+    To use the ATM simulation system, run JAR file _ATM System – Lab 1 Version 1.0.jar_ which is inside _Assignment 1 - artifacts.zip_. The system should begin execution with the GUI as shown in Appendix A.
 
     There are two valid hard-coded card numbers and PINs:
-    -  Card Number: 1 PIN: 42 Available Accounts: Checking and Savings
 
-    -  Card Number: 2 PIN: 1234 Available Accounts: Checking and Money Market Note:
-    
+    - Card Number: 1 PIN: 42 Available Accounts: Checking and Savings
+
+    - Card Number: 2 PIN: 1234 Available Accounts: Checking and Money Market Note:
+
     Both of these cards access the same checking account.
 
     The initial balances are: Checking: \$100 Savings: \$1,000 Money Market: \$5,000
 
 # Instructions
 
-This section outlines the steps required to complete the lab. 
+This section outlines the steps required to complete the lab.
 
 ## Familiarization with the ATM System
 
-1. Run the JAR file ATM System - Lab 1 Version 1.0.jar to display the GUI 
+1. Run the JAR file ATM System - Lab 1 Version 1.0.jar to display the GUI
 
 2. Turn on the system using the “On” button.
 
@@ -129,30 +139,28 @@ This section outlines the steps required to complete the lab.
 
 12. Press the System Power Button again to turn off the ATM system.
 
-
 ## Writing Effective Bug Reports
 
 When creating bug reports, it's important to include certain key elements that product support teams will expect and require. **When submitting your bug reports, make sure to include**:
 
--   The function being tested (e.g. login)
--   The initial state of the system (e.g. the system is on and idle)
--   Detailed steps to reproduce the defect/bug (e.g. insert a card, enter the correct card number and PIN)
--   The expected outcome (e.g. the system should successfully accept the customer and display the banking menu)
--   The actual outcome (e.g. the system crashes or displays an error message)
-
-
+- The function being tested (e.g. login)
+- The initial state of the system (e.g. the system is on and idle)
+- Detailed steps to reproduce the defect/bug (e.g. insert a card, enter the correct card number and PIN)
+- The expected outcome (e.g. the system should successfully accept the customer and display the banking menu)
+- The actual outcome (e.g. the system crashes or displays an error message)
 
 ## Exploratory (Manual Non-scripted) Testing
 
 1. In order to perform any testing, the requirements must first be known. Read over the requirements for the ATM simulation system as outlined in Appendix B before continuing with the rest of this section.
 
 2. Before beginning testing, try to come up with a high-level exploratory test plan for how you intend to test the system. Record key details of this plan, as it will be required in the lab report. This plan could include but is not limited to, information such as: functions being targeted, the approach to be taken (test most functions a little bit, or test a few functions extensively, etc.), and how you plan to come up with test cases (test most common paths, or exceptional paths, etc.).
-Keep in mind that this does not need to necessarily be the best plan, as long as it is justifiable.
+   Keep in mind that this does not need to necessarily be the best plan, as long as it is justifiable.
 
-1. Reporting defects: Carry out your devised exploratory test plan for roughly half an hour. Each pair of students needs to perform exploratory testing and record defects. While performing the tests, if any of the actual results differ from the expected results, report that as a defect. Record defects as they are found before forgetting the defect and its detailed conditions. At the end, two pairs of each group will review all defects and report them in the bug tracking tool.
+3. Reporting defects: Carry out your devised exploratory test plan for roughly half an hour. Each pair of students needs to perform exploratory testing and record defects. While performing the tests, if any of the actual results differ from the expected results, report that as a defect. Record defects as they are found before forgetting the defect and its detailed conditions. At the end, two pairs of each group will review all defects and report them in the bug tracking tool.
 
 ## Manual Scripted Testing
- This section is to be performed as a group. One student can ‘drive’ the testing (operate the computer executing the system under test), while the other student keeps track of which tests have been performed, reports any defects found, and determines what order to execute tests in. Keep track of what order the tests are executed in, as it will be useful information later on. Note that it does not matter which student reports the defects, as it is a group effort.
+
+This section is to be performed as a group. One student can ‘drive’ the testing (operate the computer executing the system under test), while the other student keeps track of which tests have been performed, reports any defects found, and determines what order to execute tests in. Keep track of what order the tests are executed in, as it will be useful information later on. Note that it does not matter which student reports the defects, as it is a group effort.
 
 1.  In Appendix C, a basic test suite has been provided for this SUT. Execute each of the test cases at least once, verifying that the actual results match the expected results for each case. Report any defects found. In order to differentiate between defects found during this stage and the previous stage, in the summary field type “MFT:“ (Manual Functional Testing) before the summary of the defect. Do not report defects which have already been found by your group during the exploratory testing phase, however you may wish to take note of which defects are found using both testing methods as it may be relevant in your report.
 
@@ -160,7 +168,7 @@ Keep in mind that this does not need to necessarily be the best plan, as long as
 
 ## Regression Testing (Verification of Defect Fixes)
 
-This section is to be performed as a group. The defects reported in the twoprevious stages of testing can be divided among the 
+This section is to be performed as a group. The defects reported in the twoprevious stages of testing can be divided among the
 group members and can beretested individually.
 
 1.  Download the updated version (version 1.1) of the ATM simulation system from blackboard. This version of the system has been partially fixed by imaginary developers based on the defect reports previously existing.
@@ -174,6 +182,7 @@ group members and can beretested individually.
 5.  Execute steps 4 and 5 (Manual Scripted Testing) once again, looking only for new defects that have been created. If a defect is found which had previously been reported, do not report it again. When reporting these defects, ensure that version 1.1 is selected.
 
 # Summary
+
 Within your group, you should now each be familiar with the main features of a bug tracking system, and have a general understanding of how to use it to effectively report and track defects. You have also progressed through a short iteration of exploratory testing, two iterations of manual functional testing and an iteration of regression testing.
 
 # Deliverables and Grading
@@ -181,18 +190,19 @@ Within your group, you should now each be familiar with the main features of a b
 For this assignment, you need to submit one Excel/PDF/Markdown file and the lab report and demo your findings in the lab.
 
 ## Demo (25%)
-The demo session for this lab serves several purposes: 
-- preparing students for technical presentations, 
-- providing an early assessment of work to improve quality, and 
-- ensuring equal participation among team members. 
 
-All members must attend the lab and demonstrate examples of tests run and bugs found for each testing phase (exploratory, scripted, and regression). 
-Each team member should show at least one passing and one failing test, as well as the corresponding Backlog entry. 
+The demo session for this lab serves several purposes:
 
-Failure to attend or demonstrate as required may result in loss of marks for the entire assignment. 
+- preparing students for technical presentations,
+- providing an early assessment of work to improve quality, and
+- ensuring equal participation among team members.
+
+All members must attend the lab and demonstrate examples of tests run and bugs found for each testing phase (exploratory, scripted, and regression).
+Each team member should show at least one passing and one failing test, as well as the corresponding Backlog entry.
+
+Failure to attend or demonstrate as required may result in loss of marks for the entire assignment.
 
 Note that opportunities for improvement will continue until the deadline.
-
 
 ## Defect Reports (35%)
 
@@ -222,7 +232,6 @@ To be consistent, please use the template markdown file “seng438-1-team_number
 | Any difficulties encountered, challenges overcome, and lessons learned from performing the lab                                                                           | 5%  |
 | Comments/feedback on the lab and lab document itself. (Did you find it a useful practice? Was it easy to follow?) Please try to keep comments and feedback constructive. | 5%  |
 
-
 # Acknowledgements
 
 This lab is part of a software-testing laboratory course available under a Creative Commons license.
@@ -231,12 +240,12 @@ Some part of this document has been developed in the former SoftQual lab of Univ
 
 # References
 
--  [1] R. C. Bjork, "Example ATM Simulation System," Internet: http://www.math-cs.gordon.edu/courses/cps211/ATMExample/ [Jan, 2017]
--  [2] J. B. Cem Kaner, Bret Pettichord, "Chapter 4 - Bug Advocacy," in Lessons Learned in Software Testing, New York: John Wiley & Sons Inc., 2002.
--  [3] C. Kaner, "Assignment - Replicate and Edit Bugs," 2008.
-
+- [1] R. C. Bjork, "Example ATM Simulation System," Internet: http://www.math-cs.gordon.edu/courses/cps211/ATMExample/ [Jan, 2017]
+- [2] J. B. Cem Kaner, Bret Pettichord, "Chapter 4 - Bug Advocacy," in Lessons Learned in Software Testing, New York: John Wiley & Sons Inc., 2002.
+- [3] C. Kaner, "Assignment - Replicate and Edit Bugs," 2008.
 
 # Appendix
+
 ## Appendix A: GUI
 
 ![](media/sut-gui.jpeg)
@@ -260,29 +269,29 @@ retained in the machine until the customer indicates that he/she desires no
 further transactions, at which point it will be returned - except as noted
 below.
 
->   The ATM must be able to provide the following services to the customer:
+> The ATM must be able to provide the following services to the customer:
 
--   A customer must be able to make a cash withdrawal from any suitable account
-    linked to the card, in multiples of
+- A customer must be able to make a cash withdrawal from any suitable account
+  linked to the card, in multiples of
 
-    \$20.00. Approval must be obtained from the bank before cash is dispensed.
+  \$20.00. Approval must be obtained from the bank before cash is dispensed.
 
-    -   A customer must be able to make a deposit to any account linked to the
-        card, consisting of cash and/or checks in an envelope. The customer will
-        enter the amount of the deposit into the ATM, subject to manual
-        verification when the envelope is removed from the machine by an
-        operator. Approval must be obtained from the bank before physically
-        accepting the envelope.
+  - A customer must be able to make a deposit to any account linked to the
+    card, consisting of cash and/or checks in an envelope. The customer will
+    enter the amount of the deposit into the ATM, subject to manual
+    verification when the envelope is removed from the machine by an
+    operator. Approval must be obtained from the bank before physically
+    accepting the envelope.
 
-        -   A customer must be able to make a transfer of money between any two
-            accounts linked to the card.
+    - A customer must be able to make a transfer of money between any two
+      accounts linked to the card.
 
-        -   A customer must be able to make a balance inquiry of any account
-            linked to the card.
+    - A customer must be able to make a balance inquiry of any account
+      linked to the card.
 
-        -   A customer must be able to abort a transaction in progress by
-            pressing the Cancel key instead of responding to a request from the
-            machine.
+    - A customer must be able to abort a transaction in progress by
+      pressing the Cancel key instead of responding to a request from the
+      machine.
 
 The ATM will communicate each transaction to the bank and obtain verification
 that it was allowed by the bank. Ordinarily, a transaction will be considered
@@ -321,10 +330,10 @@ transaction. Entries will be made in the log when the ATM is started up and shut
 down, for each message sent to the Bank (along with the response back, if one is
 expected), for the dispensing of cash, and for the receiving of an envelope. Log
 entries may contain card numbers and dollar amounts, but for security will
-*never* contain a PIN.
-
+_never_ contain a PIN.
 
 ## Appendix C: SUT Use Cases
+
 ![](media/sut-usecases.jpeg)
 
 | **Test Case \#** | **Use Case**        | **Function Being Tested**                                        | **Initial System State**                                    | **Input**                                             | **Expected Output**                                                                      |
@@ -379,3 +388,5 @@ entries may contain card numbers and dollar amounts, but for security will
 | 38  | **Invalid PIN Extension** | Incorrect re-entry of PIN is not accepted                                                        | Request to re-enter PIN is being displayed                        | Enter incorrect PIN                                                                       | An appropriate message is displayed and re-entry of the PIN is again requested                                                                                |
 | 39  | **Invalid PIN Extension** | Correct re-entry of PIN on the second try is accepted                                            | Request to re-enter PIN is being displayed                        | Enter incorrect PIN the first time, then correct PIN the second time                      | Original transaction completes successfully                                                                                                                   |
 | 40  | **Invalid PIN Extension** | Correct re-entry of PIN on the third try is accepted                                             | Request to re-enter PIN is being displayed                        | Enter incorrect PIN the first time and second times, then correct PIN the third time      | Original transaction completes successfully                                                                                                                   |
+
+<p dir=ltr style="margin-top:0pt;margin-bottom:0pt;"><span style="font-size:11pt;font-family:Arial, sans-serif;color:rgb(0, 0, 0);"><b><span style="box-sizing:border-box;">Description</span><span style="box-sizing:border-box;font-weight:400;">: Balance Inquiry for Money Market is throwing unknown error</span><br></b></span> </p><p dir=ltr style="margin-top:0pt;margin-bottom:0pt;"> </p><p dir=ltr style="margin-top:0pt;margin-bottom:0pt;"> </p><p dir=ltr style="margin-top:0pt;margin-bottom:0pt;"><span style="font-size:11pt;font-family:Arial, sans-serif;color:rgb(0, 0, 0);"><b><br></b></span> </p><p dir=ltr style="margin-top:0pt;margin-bottom:0pt;"><span style="font-size:11pt;font-family:Arial, sans-serif;color:rgb(0, 0, 0);"><b>Function Being Tested: </b>Balance Inquiry for Money Market</span> </p><p dir=ltr style="font-weight:bold;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:11pt;font-family:Arial, sans-serif;color:rgb(0, 0, 0);"><br></span> </p><p dir=ltr style="margin-top:0pt;margin-bottom:0pt;"><span style="font-size:11pt;font-family:Arial, sans-serif;color:rgb(0, 0, 0);"><b>State: </b>On and idle</span> </p><p dir=ltr style="font-weight:bold;margin-top:0pt;margin-bottom:0pt;"><br> </p><p dir=ltr style="font-weight:bold;margin-top:0pt;margin-bottom:0pt;"> </p><p dir=ltr style="font-weight:bold;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:11pt;font-family:Arial, sans-serif;color:rgb(0, 0, 0);">Steps to Reproduce:</span> </p><p dir=ltr style="font-weight:normal;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#000000;font-weight:400;">1. Log in was 20 bills of $20</span> </p><p dir=ltr style="font-weight:normal;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#000000;font-weight:400;">2. Enter card number 1&nbsp;</span> </p><p dir=ltr style="font-weight:normal;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#000000;font-weight:400;">3. Enter pin number 42</span> </p><p dir=ltr style="font-weight:normal;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#000000;font-weight:400;">4. Selected balance inquiry</span> </p><p dir=ltr style="font-weight:normal;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#000000;font-weight:400;">5. Selected money market</span> </p><p dir=ltr style="font-weight:normal;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:11pt;font-family:Arial,sans-serif;color:#000000;font-weight:400;"><br></span> </p><p dir=ltr style="font-weight:bold;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:11pt;font-family:Arial, sans-serif;color:rgb(0, 0, 0);">Expected</span><span style="font-weight:400;font-size:11pt;font-family:Arial, sans-serif;color:rgb(0, 0, 0);">: No error message</span> </p><p dir=ltr style="font-weight:bold;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:11pt;font-family:Arial, sans-serif;color:rgb(0, 0, 0);">Actual</span><span style="font-weight:400;font-size:11pt;font-family:Arial, sans-serif;color:rgb(0, 0, 0);">: Unknown error message displayed on green section</span> </p><div><b>UPDATE:</b>&nbsp; ISSUE FIXED IN VERSION 1.1 </div>

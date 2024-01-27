@@ -2,12 +2,12 @@
 
 **Lab. Report \#1 – Introduction to Testing and Defect Tracking**
 
-| Group: Group Number      |
+| Group: Group Number   17   |
 |-----------------|
-| Student 1 name                |   
-| Student 2 name              |   
-| Student 3 name               |   
-| Student 4 name                |   
+| Student 1 name          Shayyan Asim      |   
+| Student 2 name           Rohan Kapila    |   
+| Student 3 name           Fayzan Toor    |   
+| Student 4 name            Qazi Ali    |   
 
 
 **Table of Contents**

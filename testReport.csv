@@ -1,5 +1,6 @@
-ID;Work Item Type;Title;Assigned To;State;Tags;Repro Steps
-1;Bug;Unknown Error When Attempting Balance Inquiry for Money Market (Exploratory);Fayzan TOOR <fayzan.toor@ucalgary.ca>;Resolved;;"Description: Balance Inquiry for Money Market is throwing unknown error
+Assignment 1
+ID,Work Item Type,Title,Assigned To,State,Tags,Repro Steps
+1,Bug,Unknown Error When Attempting Balance Inquiry for Money Market (Exploratory),Fayzan TOOR <fayzan.toor@ucalgary.ca>,Resolved,,"Description: Balance Inquiry for Money Market is throwing unknown error
 
 
 
@@ -20,7 +21,7 @@ Expected: No error message
 Actual: Unknown error message displayed on green section
 UPDATE:  ISSUE FIXED IN VERSION 1.1
 "
-2;Bug;Deposit Balance Is 10 Dollars Less Than The Amount (Exploratory);Rohan KAPILA <rohan.kapila@ucalgary.ca>;Resolved;;"Description: Balance Inquiry for Money Market is throwing unknown error
+2,Bug,Deposit Balance Is 10 Dollars Less Than The Amount (Exploratory),Rohan KAPILA <rohan.kapila@ucalgary.ca>,Resolved,,"Description: Balance Inquiry for Money Market is throwing unknown error
 
 
 
@@ -41,7 +42,7 @@ Expected: No error message
 Actual: Unknown error message displayed on green section
 UPDATE:  ISSUE FIXED IN VERSION 1.1
 "
-3;Bug;Account Type is Invalid for Transfer (Exploratory) ;Qazi Ali <qazi.ali@ucalgary.ca>;Active;;"Description: Failed to transfer between saving to checking 
+3,Bug,Account Type is Invalid for Transfer (Exploratory) ,Qazi Ali <qazi.ali@ucalgary.ca>,Active,,"Description: Failed to transfer between saving to checking 
 
 Function Being Tested :  Transfer 
 
@@ -63,7 +64,7 @@ Actual: Invalid from account type error
 
 UPDATE: ISSUE NOT FIXED IN VERSION 1.1
 "
-4;Bug;Incorrect Amount Displayed for Money Market Inquiry (Exploratory);Fayzan TOOR <fayzan.toor@ucalgary.ca>;Resolved;;"Description: Balance Inquiry for Money Market is Showing $500 besides of $5000
+4,Bug,Incorrect Amount Displayed for Money Market Inquiry (Exploratory),Fayzan TOOR <fayzan.toor@ucalgary.ca>,Resolved,,"Description: Balance Inquiry for Money Market is Showing $500 besides of $5000
 
 
 
@@ -85,7 +86,7 @@ Expected: $5000 displayed
 Actual: $500 displayed
 UPDATE: ISSUE FIXED IN VERSION 1.1
 "
-5;Bug;Withdrawal Functionality Error (Exploratory);Shayyan Asim <shayyan.asim@ucalgary.ca>;Active;;"Description: Clicking a number that is not an option shows a 20 that grows in size.
+5,Bug,Withdrawal Functionality Error (Exploratory),Shayyan Asim <shayyan.asim@ucalgary.ca>,Active,,"Description: Clicking a number that is not an option shows a 20 that grows in size.
 
 Function Being Tested: Withdrawal
 State: ON AND IDLE
@@ -103,7 +104,7 @@ Actual Outcome: A 20 shows that grows in size and while it is showing no other 
 UPDATE: ISSUE NOT RESOLVED IN VERSION 1.1
  
 "
-8;Bug;Incorrect Account Listed in Logs for Balance Inquiry (Exploratory);Fayzan TOOR <fayzan.toor@ucalgary.ca>;Resolved;;"Description: Balance Inquiry for Money Market is Shown as Saving Account in Logs
+8,Bug,Incorrect Account Listed in Logs for Balance Inquiry (Exploratory),Fayzan TOOR <fayzan.toor@ucalgary.ca>,Resolved,,"Description: Balance Inquiry for Money Market is Shown as Saving Account in Logs
 
 
 
@@ -127,7 +128,7 @@ Expected: Balance account is referenced in logs
 Actual: Savings account is mentioned instead
 UPDATE: ISSUE FIXED IN 1.1 VERSION
 "
-9;Bug;Incorrect Amount Being Withdrawn [Exploratory];Shayyan Asim <shayyan.asim@ucalgary.ca>;Resolved;;"Description: When selecting a specific amount to withdraw it doesn't actually withdraw that amount.
+9,Bug,Incorrect Amount Being Withdrawn [Exploratory],Shayyan Asim <shayyan.asim@ucalgary.ca>,Resolved,,"Description: When selecting a specific amount to withdraw it doesn't actually withdraw that amount.
 
 State: ON AND IDLE
 Steps To Reproduce:
@@ -142,7 +143,7 @@ Actual Outcome: Selecting 1 withdraws the amount assigned to 2 that is 40 dolla
 
 UPDATE: ISSUE RESOLVED IN VERSION 1.1
 "
-10;Bug;Invalid Option Selection (Exploratory);Rohan KAPILA <rohan.kapila@ucalgary.ca>;Resolved;;"Description: Selected an account not displayed 
+10,Bug,Invalid Option Selection (Exploratory),Rohan KAPILA <rohan.kapila@ucalgary.ca>,Resolved,,"Description: Selected an account not displayed 
 
 
 Function Being Tested: Deposit 
@@ -161,7 +162,7 @@ Expected: Invalid Input Message
 Actual: Deposits $20
 
 "
-11;Bug;Message Misspelled on Amount Selection Cancel Request (MFT);Rohan KAPILA <rohan.kapila@ucalgary.ca>;Resolved;;"MFT
+11,Bug,Message Misspelled on Amount Selection Cancel Request (MFT),Rohan KAPILA <rohan.kapila@ucalgary.ca>,Resolved,,"MFT
 
 Description: Cancel Chequing Deposit Amount Request Display Misspelled  
 
@@ -192,7 +193,7 @@ Wood you like to do another transaction?
 1) Yes
 2) No
 "
-12;Bug;Cancel Request on Account Selection Misspelled (MFT);Rohan KAPILA <rohan.kapila@ucalgary.ca>;Resolved;;"MFT
+12,Bug,Cancel Request on Account Selection Misspelled (MFT),Rohan KAPILA <rohan.kapila@ucalgary.ca>,Resolved,,"MFT
 
 Description: Cancel Chequing Deposit Account Display Request Display Misspelled  
 
@@ -222,7 +223,7 @@ Wood you like to do another transaction?
 1) Yes
 2) No
 "
-13;Bug;Message Misspelled on insert envelope cancellation request (MFT);Rohan KAPILA <rohan.kapila@ucalgary.ca>;Resolved;;"MFT
+13,Bug,Message Misspelled on insert envelope cancellation request (MFT),Rohan KAPILA <rohan.kapila@ucalgary.ca>,Resolved,,"MFT
 
 Description: Cancel Chequing Deposit Amount Request Display Misspelled  
 
@@ -255,7 +256,7 @@ Wood you like to do another transaction?
 2) No
 
 "
-14;Bug;PIN AUTHENTICATION LAG [MFT];Shayyan Asim <shayyan.asim@ucalgary.ca>;Active;;"Description:  Entering correct pin after an incorrect input doesn't log in.
+14,Bug,PIN AUTHENTICATION LAG [MFT],Shayyan Asim <shayyan.asim@ucalgary.ca>,Active,,"Description:  Entering correct pin after an incorrect input doesn't log in.
 
 State: ON AND IDLE
 
@@ -272,7 +273,7 @@ Expected Output: After Entering the correct PIN the account should successfully
 Actual Output: After Entering the correct PIN the ATM asked to enter the PIN again.
 After entering the Correct PIN second time the system lets you to login
 "
-15;Bug;Spelling Error When Asked for Another Transaction (MFT);Fayzan TOOR <fayzan.toor@ucalgary.ca>;Resolved;;"Description: Spelling Error in Menu Asking for Additional Transactions
+15,Bug,Spelling Error When Asked for Another Transaction (MFT),Fayzan TOOR <fayzan.toor@ucalgary.ca>,Resolved,,"Description: Spelling Error in Menu Asking for Additional Transactions
 
 
 
@@ -303,7 +304,7 @@ Actual:  Wood you like to do another transaction?
 
 
 "
-18;Bug;System doesn't verifies that customer's balance is sufficient to fulfill the request (MFT);Qazi Ali <qazi.ali@ucalgary.ca>;Resolved;;"Description: System doesn't verifies that customer's balance is sufficient to fulfill the request
+18,Bug,System doesn't verifies that customer's balance is sufficient to fulfill the request (MFT),Qazi Ali <qazi.ali@ucalgary.ca>,Resolved,,"Description: System doesn't verifies that customer's balance is sufficient to fulfill the request
 
 
 

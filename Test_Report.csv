@@ -260,7 +260,7 @@ Expected Output: After Entering the correct PIN the account should successfully
 
 Actual Output: After Entering the correct PIN the ATM asked to enter the PIN again.
 After entering the Correct PIN second time the system lets you to login"
-UPDATE: ISSUE NOT FIXED IN VERSION 1.1
+
 15,Bug,Spelling Error When Asked for Another Transaction (MFT),Fayzan TOOR <fayzan.toor@ucalgary.ca>,Resolved,,"Description: Spelling Error in Menu Asking for Additional Transactions
 
 

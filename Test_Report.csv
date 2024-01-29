@@ -244,7 +244,7 @@ Wood you like to do another transaction?
 1) Yes
 2) No
 "
-14,Bug,PIN AUTHENTICATION LAG [MFT],Shayyan Asim <shayyan.asim@ucalgary.ca>,Active,,"Description:  Entering correct pin after an incorrect input doesn't log in. UPDATE: ISSUE NOT FIXED IN VERSION 1.1
+14,Bug,PIN AUTHENTICATION LAG [MFT],Shayyan Asim <shayyan.asim@ucalgary.ca>,Active,,"Description:  Entering correct pin after an incorrect input doesn't log in. 
 
 State: ON AND IDLE
 
@@ -260,6 +260,7 @@ Expected Output: After Entering the correct PIN the account should successfully
 
 Actual Output: After Entering the correct PIN the ATM asked to enter the PIN again.
 After entering the Correct PIN second time the system lets you to login"
+UPDATE: ISSUE NOT FIXED IN VERSION 1.1
 15,Bug,Spelling Error When Asked for Another Transaction (MFT),Fayzan TOOR <fayzan.toor@ucalgary.ca>,Resolved,,"Description: Spelling Error in Menu Asking for Additional Transactions
 
 

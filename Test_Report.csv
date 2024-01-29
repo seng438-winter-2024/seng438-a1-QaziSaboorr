@@ -244,7 +244,7 @@ Wood you like to do another transaction?
 1) Yes
 2) No
 "
-14,Bug,PIN AUTHENTICATION LAG [MFT],Shayyan Asim <shayyan.asim@ucalgary.ca>,Active,,"Description:  Entering correct pin after an incorrect input doesn't log in.
+14,Bug,PIN AUTHENTICATION LAG [MFT],Shayyan Asim <shayyan.asim@ucalgary.ca>,Active,,"Description:  Entering correct pin after an incorrect input doesn't log in. UPDATE: ISSUE NOT FIXED IN VERSION 1.1
 
 State: ON AND IDLE
 

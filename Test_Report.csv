@@ -102,7 +102,7 @@ Steps to Reproduce:
 4. Enter card number 1 
 5. Enter pin number 42
 6: Choose Withdrawal By pressing 1.
-7: Choose any account to Withdraw from.
+7: Enter 1 to select checking account
 8: You are asked to enter a number between 1 to 5 to select a amount.
 9: Enter a number not between 1-5. Enter 7 or 8 for example.
 

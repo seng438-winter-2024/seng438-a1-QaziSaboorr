@@ -256,9 +256,9 @@ Steps to Reproduce:
 4. Enter card number 1 
 5. Enter pin number 42
 6. Select Deposit by entering 2
-5. Select Chequing by entering 1
-6. Enter $5.00 for amount
-7. Click Cancel option
+7. Select Chequing by entering 1
+8. Enter $5.00 for amount
+9. Click Cancel option
 
 Expected:
 Last transaction was cancelled
@@ -303,7 +303,7 @@ State: On and idle
 
 
 Steps to Reproduce:
-1: Turn on the machine.
+1. Turn on the machine.
 2. Enter 12 bills of $20 into inpu0
 3. Click to insert card
 4. Enter card number 1 
